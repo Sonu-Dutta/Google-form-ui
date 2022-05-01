@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google Form UI design</title>
+    <script  src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="logo">
+            <img src="./images/google.webp" alt="">
+        </div>
+        <div class="form-box">
+            <h1>Sign in</h1>
+            <span>Use your Google Account</span>
+            <form action="">
+                <div class="input-box">
+                    <input type="email" name="email" id="email-field" class="input-field" required autofocus autocomplete="off">
+                    <label for="email-field" class="placeholder">Email or phone</label>
+                </div>
+
+                <div class="input-box">
+                    <input type="password" name="password" id="password-field" class="input-field" required>
+                    <label for="password-field" class="placeholder">Enter your password</label>
+                </div>
+
+                <a href="#" class="forgot">Forgot email?</a>
+                <div class="buttons">
+                    <a href="#" class="create-account">Create account</a>
+                    <button class="sign-in">Next</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
